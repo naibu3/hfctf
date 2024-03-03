@@ -1,0 +1,1 @@
+python3 -c import pwn; print(b"".join([ pwn.p32(int(x,16)) for x in "6f636970.7b465443.6b34334c.5f676e31.67346c46.6666305f.3474535f".split(".") ]))

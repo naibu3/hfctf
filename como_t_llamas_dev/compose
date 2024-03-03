@@ -1,0 +1,11 @@
+version: "1"
+services:
+    ctf:
+        build: .
+        expose:
+            - "19303"
+        ports:
+            - "19303:19303"
+        restart: always
+        tty: true
+        stdin_open: true
