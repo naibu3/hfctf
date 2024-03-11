@@ -1,1 +1,0 @@
-hfctf{FAKE_FLAG}
